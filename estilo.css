@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    background-color: black;   
+}
+
+header{
+    background-color: black;
+    height: 7rem;
+    position: fixed;
+  top: 0;
+  left: 100;
+  width: 100%;
+  height: 100px;
+  z-index: 999;
+}
+
+.hero{ 
+    height: 50rem;
+}
+
+.primerh2{
+margin-left: 40px;
+}
+
+.sol{
+    margin-top: -35px;
+}
+
+button{
+    margin-left: 1500px;
+    margin-top: -80px;
+    position: absolute;
+    border-radius: 45px;
+    font-size: 18px;
+      padding: 20px;
+      background-color: black;
+      border-color: white;
+      color: white;
+      font-family: 'Roboto Slab', serif;
+}
+
+.hdosheader{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+header a{
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 350px;
+    color: #BBBBAE;
+    bottom: 35px;
+}
+
+.mi-boton{
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    font-size: 170%;
+    border-radius: 45px;
+    
+}
+
+.contenedorNumeros{
+    margin-left: 1500px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 2.7rem;
+    
+}
+
+.texto1{
+    font-size: 150%;
+    color: white;
+    line-height: 2.0rem;
+    margin-top: 170px;
+    
+}
+
+.imagenyo{
+    margin-top: -620px;
+    margin-left: 650px;
+    position: absolute;
+   
+}
+
+.skills{
+    background-color: yellow;
+    display: flex;
+    row-gap: 0;
+    justify-content: space-around;
+    margin-top: 285px;
+    padding: 2.5rem;
+    font-size: 140%;
+    border-radius: 10px;
+    
+}
+
+.Proyectos{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    padding: 7.0rem;
+   
+}
+
+.contenedor-imagenes img {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45px;
+  padding: 30px;
+}
+
+.contenedor-imagenesdos img {
+    display: block;
+    margin-bottom: 60px;
+    margin-left: 900px;
+    border-radius: 15px;
+    position: relative;
+    top: -855px;
+}
+
+.titulosecciontres{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    padding: 7.0rem;
+    margin-top: -750px;
+}
+
+.texto2{
+    color: white;
+    line-height: 2.8rem;
+    margin-bottom: 55px;
+    font-size: 170%;
+}
+
+.texto3{
+    color: white;
+    line-height: 2.8rem;
+    margin-bottom: 55px;
+    font-size: 170%;
+}
+
+.texto4{
+    color: white;
+    line-height: 2.8rem;
+    margin-bottom: 55px;
+    font-size: 170%;
+}
+
+.texto5{
+    color: white;
+    line-height: 2.8rem;
+    margin-bottom: 55px;
+    font-size: 170%;
+}
+
+.linea-horizontal {
+    border-bottom: 1px solid #4B4B47;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: -465px;
+    position: absolute;
+  }
+
+  .linea-horizontaldos {
+    border-bottom: 1px solid #4B4B47;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: -175px;
+    position: absolute;
+  }
+
+  .linea-horizontaltres {
+    border-bottom: 1px solid #4B4B47;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: -320px;
+    position: absolute;
+  }
+  
+  .imagen-diagonal {
+    transform: rotate(-85deg);
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -600px;
+  }
+  
+  .imagen-diagonal img {
+    width: 100%;
+    height: auto;
+    transform: rotate(90deg);
+  }
+  
+.footerUno{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    padding: 7.0rem;
+}
+
+.mi-botondos {
+    display: flex;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 750px;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    font-size: 170%;
+    border-radius: 45px;
+}
+
+.contenedor-h2 {
+    display: flex;
+    color: white;
+    flex: 1;
+    color: white;
+    margin-left: -30px;
+    margin-top: -45px;
+    padding: 9.0rem;
+    justify-content: space-evenly;
+    margin: 0 420px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero p{
+    color: #A7A79C;
+}
+
+@keyframes scale-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.mi-boton{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  
+.mi-boton:hover {
+    animation: scale-animation 2s 1;
+  }
+
+  button{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    animation: scale-animation 2s 1;
+  }
+
+a{
+    display: inline-block;
+    position: relative;
+    color: yellow;
+    text-decoration: none;
+    padding-bottom: 5px; 
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: yellow;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form input[type="submit"] {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
